@@ -1,0 +1,36 @@
+{
+  "name": "ml",
+  "version": "1.0.0",
+  "description": "My first attempt at Machine Learning with JS",
+  "main": "index.js",
+  "scripts": {
+    "dev": "./node_modules/.bin/nodemon --exec babel-node ./src/index.js",
+    "start": "./node_modules/.bin/babel-node --nolazy --require --presets env ./src/index.js",
+    "test": "node index"
+  },
+  "keywords": [
+    "machine learning",
+    "brain.js",
+    "node",
+    "express"
+  ],
+  "author": "Sipho Hlophe <psyphore@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "1.18.3",
+    "brain.js": "1.2.8",
+    "cache-control": "2.0.0",
+    "cors": "2.8.4",
+    "dotenv": "6.0.0",
+    "express": "4.16.3",
+    "express-jwt": "5.3.1",
+    "moment": "2.22.2",
+    "uuid": "3.3.2"
+  },
+  "devDependencies": {
+    "nodemon": "1.18.4",
+    "mocha": "5.2.0",
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0"
+  }
+}
